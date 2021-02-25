@@ -1,130 +1,153 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.24)  25 FEB 2021 00:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2021.2.25)  25 FEB 2021 18:24
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**Homework1.tex
-(./Homework1.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06> (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+**./Homework1.tex
+(Homework1.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03>
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
-) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+\bibindent=\dimen138
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
-) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen135
-)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\ex@=\dimen139
+))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen136
-) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+\pmbraise@=\dimen140
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count175
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count176
-\leftroot@=\count177
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count178
-\DOTSCASE@=\count179
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box45
-\strutbox@=\box46
-\big@size=\dimen137
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count180
-\c@MaxMatrixCols=\count181
+\inf@bad=\count183
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count184
+\leftroot@=\count185
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count186
+\DOTSCASE@=\count187
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
 \dotsspace@=\muskip16
-\c@parentequation=\count182
-\dspbrk@lvl=\count183
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
 \tag@help=\toks18
-\row@=\count184
-\column@=\count185
-\maxfields@=\count186
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
 \andhelp@=\toks19
-\eqnshift@=\dimen138
-\alignsep@=\dimen139
-\tagshift@=\dimen140
-\tagwidth@=\dimen141
-\totwidth@=\dimen142
-\lineht@=\dimen143
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
 \@envbody=\toks20
 \multlinegap=\skip50
 \multlinetaggap=\skip51
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
-) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/natbib/natbib.sty
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip52
 \bibsep=\skip53
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count187
-) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/keyval.sty
+\c@NAT@ctr=\count195
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
-) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/trig.sty
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
- (/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen144
-\Gin@req@width=\dimen145
-) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/03/22 3.42 The Babel package
- (/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2020/03/22 3.42 Babel switching mechanism
-) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
- (/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/03/22 3.42 Babel common definitions
-\babel@savecnt=\count188
-\U@D=\dimen146
- (/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel/txtbabel.def)
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/10/27 3.51 The Babel package
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/10/27 3.51 Babel common definitions
+\babel@savecnt=\count196
+\U@D=\dimen150
+\l@babelnohyphens=\language79
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count189
 )
+\bbl@dirlevel=\count197
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ld
+f
+Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language10) on input line 105.
+(babel)             (\language73) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language10) on input line 108.
-) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel-russian/russianb.ldf
+(babel)             (\language73) on input line 108.
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/babel-russian\russianb.l
+df
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
 
@@ -133,11 +156,13 @@ Package babel Warning: No Cyrillic font encoding has been loaded so far.
 (babel)                A font encoding should be declared before babel.
 (babel)                Default `T2A' encoding will be loaded  on input line 78.
 
-(/usr/local/texlive/2020basic/texmf-dist/tex/latex/cyrillic/t2aenc.def
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
- (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/t2aenc.dfu
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\t2aenc.dfu
 File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
@@ -338,17 +363,47 @@ File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
 ))
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
-)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/cmap/cmap.sty
-Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
-) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count190
-\l__pdf_internal_box=\box47
-) (./Homework1.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 4.
- (/usr/local/texlive/2020basic/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/cmap\cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count198
+\float@exts=\toks23
+\float@box=\box49
+\@float@everytoks=\toks24
+\@floatcapt=\box50
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count199
+\l__pdf_internal_box=\box51
+) (Homework1.aux
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
+.
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>>
+
+LaTeX Warning: Label `fig:image' multiply defined.
+
+
+LaTeX Warning: Label `fig:image' multiply defined.
+
 
 LaTeX Warning: Label `fig:image' multiply defined.
 
@@ -364,271 +419,441 @@ LaTeX Warning: Label `fig:image' multiply defined.
 )
 \openout1 = `Homework1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
- (/usr/local/texlive/2020basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count191
-\scratchdimen=\dimen147
-\scratchbox=\box48
-\nofMPsegments=\count192
-\nofMParguments=\count193
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count194
-\MPscratchDim=\dimen148
-\MPnumerator=\count195
-\makeMPintoPDFobject=\count196
-\everyMPtoPDFconversion=\toks24
-) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count266
+\scratchdimen=\dimen151
+\scratchbox=\box52
+\nofMPsegments=\count267
+\nofMParguments=\count268
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count269
+\MPscratchDim=\dimen152
+\MPnumerator=\count270
+\makeMPintoPDFobject=\count271
+\everyMPtoPDFconversion=\toks26
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2020basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-LaTeX Info: Redefining \th on input line 10.
-<<ot1.cmap>>
-Overfull \hbox (55.35416pt too wide) in paragraph at lines 21--24
-\T2A/cmr/m/n/10 возь-мем 5 ге-не-ра-то-ров и по-лим вы-бор-ку раз-мер-но-сти 5, то есть $\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 X[]; X[]; X[]; X[]; X[]\OT1/cmr/m/n/10 )$\T2A/cmr/m/n/10 ,
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+LaTeX Info: Redefining \th on input line 12.
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (55.35416pt too wide) in paragraph at lines 23--26
+\T2A/cmr/m/n/10 возь-мем 5 ге-не-ра-то-ров и по-лим вы-бор-ку раз-мер-но-сти 5,
+ то есть $\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 X[]; X[]; X[];
+ X[]; X[]\OT1/cmr/m/n/10 )$\T2A/cmr/m/n/10 ,
  []
 
-<./Task1/Task_1__all_100.png, id=3, 433.62pt x 289.08pt>
+<./Task1/Task_1__all_100.png, id=6, 433.62pt x 289.08pt>
 File: ./Task1/Task_1__all_100.png Graphic file (type png)
 <use ./Task1/Task_1__all_100.png>
-Package pdftex.def Info: ./Task1/Task_1__all_100.png  used on input line 35.
+Package pdftex.def Info: ./Task1/Task_1__all_100.png  used on input line 37.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task1/Task_1_Binom100.png, id=5, 433.62pt x 289.08pt>
+<./Task1/Task_1_Binom100.png, id=8, 433.62pt x 289.08pt>
 File: ./Task1/Task_1_Binom100.png Graphic file (type png)
 <use ./Task1/Task_1_Binom100.png>
-Package pdftex.def Info: ./Task1/Task_1_Binom100.png  used on input line 36.
+Package pdftex.def Info: ./Task1/Task_1_Binom100.png  used on input line 38.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task1/Task_1__all_100000.png, id=6, 433.62pt x 289.08pt>
+<./Task1/Task_1__all_100000.png, id=9, 433.62pt x 289.08pt>
 File: ./Task1/Task_1__all_100000.png Graphic file (type png)
 <use ./Task1/Task_1__all_100000.png>
-Package pdftex.def Info: ./Task1/Task_1__all_100000.png  used on input line 37.
+Package pdftex.def Info: ./Task1/Task_1__all_100000.png  used on input line 39.
+
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task1/Task_1_Binom100000.png, id=7, 433.62pt x 289.08pt>
+<./Task1/Task_1_Binom100000.png, id=10, 433.62pt x 289.08pt>
 File: ./Task1/Task_1_Binom100000.png Graphic file (type png)
 <use ./Task1/Task_1_Binom100000.png>
-Package pdftex.def Info: ./Task1/Task_1_Binom100000.png  used on input line 38.
+Package pdftex.def Info: ./Task1/Task_1_Binom100000.png  used on input line 40.
+
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
 [1
 
-{/usr/local/texlive/2020basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Task1/Task_1__all_100.png> <./Task1/Task_1_Binom100.png> <./Task1/Task_1__all_100000.png> <./Task1/Task_1_Binom100000.png>]
-Overfull \hbox (35.9192pt too wide) in paragraph at lines 56--57
-[]\T2A/cmr/m/n/10 ƒисперси€ смо-де-ли-ро-ван-ной вы-бор-ки: $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 38$\T2A/cmr/m/n/10 , тео-ре-ти-че-ское: $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1095999999999995$ 
+{C:/Users/User/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Task1/Task_1__
+all_100.png> <./Task1/Task_1_Binom100.png> <./Task1/Task_1__all_100000.png> <./
+Task1/Task_1_Binom100000.png>]
+Overfull \hbox (35.9192pt too wide) in paragraph at lines 58--59
+[]\T2A/cmr/m/n/10 ƒисперси€ смо-де-ли-ро-ван-ной вы-бор-ки: $\OT1/cmr/m/n/10 1\
+OML/cmm/m/it/10 :\OT1/cmr/m/n/10 38$\T2A/cmr/m/n/10 , тео-ре-ти-че-ское: $\OT1/
+cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1095999999999995$ 
  []
 
 
-Overfull \hbox (12.96925pt too wide) in paragraph at lines 69--71
-\T2A/cmr/m/n/10 ге-не-ра-тор рав-но-мер-но-го рас-пре-де-ле-ние рас-смот-рим функ-цию, об-рат-ную функ-
+Overfull \hbox (12.96925pt too wide) in paragraph at lines 71--73
+\T2A/cmr/m/n/10 ге-не-ра-тор рав-но-мер-но-го рас-пре-де-ле-ние рас-смот-рим фу
+нк-цию, об-рат-ную функ-
  []
 
 [2]
-<./Task2/Task_2__all_100.png, id=32, 433.62pt x 289.08pt>
+<./Task2/Task_2__all_100.png, id=36, 433.62pt x 289.08pt>
 File: ./Task2/Task_2__all_100.png Graphic file (type png)
 <use ./Task2/Task_2__all_100.png>
-Package pdftex.def Info: ./Task2/Task_2__all_100.png  used on input line 91.
+Package pdftex.def Info: ./Task2/Task_2__all_100.png  used on input line 94.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task2/Task_2_Cauchy100.png, id=33, 433.62pt x 289.08pt>
+<./Task2/Task_2_Cauchy100.png, id=37, 433.62pt x 289.08pt>
 File: ./Task2/Task_2_Cauchy100.png Graphic file (type png)
 <use ./Task2/Task_2_Cauchy100.png>
-Package pdftex.def Info: ./Task2/Task_2_Cauchy100.png  used on input line 92.
+Package pdftex.def Info: ./Task2/Task_2_Cauchy100.png  used on input line 95.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task2/Task_2__all_100000.png, id=34, 433.62pt x 289.08pt>
+<./Task2/Task_2__all_100000.png, id=38, 433.62pt x 289.08pt>
 File: ./Task2/Task_2__all_100000.png Graphic file (type png)
 <use ./Task2/Task_2__all_100000.png>
-Package pdftex.def Info: ./Task2/Task_2__all_100000.png  used on input line 93.
+Package pdftex.def Info: ./Task2/Task_2__all_100000.png  used on input line 96.
+
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task2/Task_2_Cauchy100000.png, id=35, 433.62pt x 289.08pt>
+<./Task2/Task_2_Cauchy100000.png, id=39, 433.62pt x 289.08pt>
 File: ./Task2/Task_2_Cauchy100000.png Graphic file (type png)
 <use ./Task2/Task_2_Cauchy100000.png>
-Package pdftex.def Info: ./Task2/Task_2_Cauchy100000.png  used on input line 94.
+Package pdftex.def Info: ./Task2/Task_2_Cauchy100000.png  used on input line 97
+.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task2/Task_2_Density100.png, id=36, 433.62pt x 289.08pt>
+<./Task2/Task_2_Density100.png, id=40, 433.62pt x 289.08pt>
 File: ./Task2/Task_2_Density100.png Graphic file (type png)
 <use ./Task2/Task_2_Density100.png>
-Package pdftex.def Info: ./Task2/Task_2_Density100.png  used on input line 117.
+Package pdftex.def Info: ./Task2/Task_2_Density100.png  used on input line 120.
+
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
-<./Task2/Task_2_Density100000.png, id=37, 433.62pt x 289.08pt>
+<./Task2/Task_2_Density100000.png, id=41, 433.62pt x 289.08pt>
 File: ./Task2/Task_2_Density100000.png Graphic file (type png)
 <use ./Task2/Task_2_Density100000.png>
-Package pdftex.def Info: ./Task2/Task_2_Density100000.png  used on input line 118.
+Package pdftex.def Info: ./Task2/Task_2_Density100000.png  used on input line 1
+21.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <./Task2/Task_2__all_100.png> <./Task2/Task_2_Cauchy100.png> <./Task2/Task_2__all_100000.png> <./Task2/Task_2_Cauchy100000.png>]
-Overfull \hbox (14.08844pt too wide) in paragraph at lines 131--132
-[]\T2A/cmr/m/n/10 ƒл€ вы-бор-ки дли-ны 100000 вы-бо-роч-на€ ме-ди-а-на: -0.0005758960784728971;
+[3 <./Task2/Task_2__all_100.png> <./Task2/Task_2_Cauchy100.png> <./Task2/Task_2
+__all_100000.png> <./Task2/Task_2_Cauchy100000.png>]
+Overfull \hbox (14.08844pt too wide) in paragraph at lines 134--135
+[]\T2A/cmr/m/n/10 ƒл€ вы-бор-ки дли-ны 100000 вы-бо-роч-на€ ме-ди-а-на: -0.0005
+758960784728971;
  []
 
-[4 <./Task2/Task_2_Density100.png> <./Task2/Task_2_Density100000.png>]
-
-./Homework1.tex:154: LaTeX Error: Environment equsation* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154 \begin{equsation*}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Homework1.tex:156: Missing $ inserted.
-<inserted text> 
-                $
-l.156     \begin{cases}
-                       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Homework1.tex:164: Missing $ inserted.
-<inserted text> 
-                $
-l.164     \end{cases}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-./Homework1.tex:165: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.165 \end{equation*}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./Homework1.tex:165: LaTeX Error: \begin{document} ended by \end{equation*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.165 \end{equation*}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Homework1.tex:165: Missing $ inserted.
-<inserted text> 
-                $
-l.165 \end{equation*}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Homework1.tex:165: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.165 \end{equation*}
-                     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[5]
-<./Task3/Task_3__all_100.png, id=56, 433.62pt x 289.08pt>
+[4 <./Task2/Task_2_Density100.png> <./Task2/Task_2_Density100000.png>] [5]
+<./Task3/Task_3__all_100.png, id=59, 433.62pt x 289.08pt>
 File: ./Task3/Task_3__all_100.png Graphic file (type png)
 <use ./Task3/Task_3__all_100.png>
-Package pdftex.def Info: ./Task3/Task_3__all_100.png  used on input line 205.
+Package pdftex.def Info: ./Task3/Task_3__all_100.png  used on input line 208.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task3/Task_3__distrib_100.png, id=57, 433.62pt x 289.08pt>
+<./Task3/Task_3__distrib_100.png, id=60, 433.62pt x 289.08pt>
 File: ./Task3/Task_3__distrib_100.png Graphic file (type png)
 <use ./Task3/Task_3__distrib_100.png>
-Package pdftex.def Info: ./Task3/Task_3__distrib_100.png  used on input line 206.
+Package pdftex.def Info: ./Task3/Task_3__distrib_100.png  used on input line 20
+9.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task3/Task_3__all_100000.png, id=58, 433.62pt x 289.08pt>
+<./Task3/Task_3__all_100000.png, id=61, 433.62pt x 289.08pt>
 File: ./Task3/Task_3__all_100000.png Graphic file (type png)
 <use ./Task3/Task_3__all_100000.png>
-Package pdftex.def Info: ./Task3/Task_3__all_100000.png  used on input line 207.
+Package pdftex.def Info: ./Task3/Task_3__all_100000.png  used on input line 210
+.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task3/Task_3__distrib_100000.png, id=59, 433.62pt x 289.08pt>
+<./Task3/Task_3__distrib_100000.png, id=62, 433.62pt x 289.08pt>
 File: ./Task3/Task_3__distrib_100000.png Graphic file (type png)
 <use ./Task3/Task_3__distrib_100000.png>
-Package pdftex.def Info: ./Task3/Task_3__distrib_100000.png  used on input line 208.
+Package pdftex.def Info: ./Task3/Task_3__distrib_100000.png  used on input line
+ 211.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
 
-Overfull \hbox (8.39539pt too wide) in paragraph at lines 217--219
-[]\T2A/cmr/m/n/10 ƒл€ вы-бор-ки дли-ны 100000 вы-бо-роч-ное сред-нее со-ста-ви-ло: 0.4633432522;
+Overfull \hbox (8.39539pt too wide) in paragraph at lines 220--222
+[]\T2A/cmr/m/n/10 ƒл€ вы-бор-ки дли-ны 100000 вы-бо-роч-ное сред-нее со-ста-ви-
+ло: 0.4633432522;
  []
 
-[6 <./Task3/Task_3__all_100.png> <./Task3/Task_3__distrib_100.png> <./Task3/Task_3__all_100000.png> <./Task3/Task_3__distrib_100000.png>]
-Overfull \hbox (41.44287pt too wide) in paragraph at lines 219--221
-[]\T2A/cmr/m/n/10 ƒл€ вы-бор-ки дли-ны 100 вы-бо-роч-на€ дис-пер-си€ со-ста-ви-ла: 0.07501495999999996;
+[6 <./Task3/Task_3__all_100.png> <./Task3/Task_3__distrib_100.png> <./Task3/Tas
+k_3__all_100000.png> <./Task3/Task_3__distrib_100000.png>]
+Overfull \hbox (41.44287pt too wide) in paragraph at lines 222--224
+[]\T2A/cmr/m/n/10 ƒл€ вы-бор-ки дли-ны 100 вы-бо-роч-на€ дис-пер-си€ со-ста-ви-
+ла: 0.07501495999999996;
  []
 
 
-Overfull \hbox (51.44043pt too wide) in paragraph at lines 221--223
-[]\T2A/cmr/m/n/10 ƒл€ вы-бор-ки дли-ны 100000 вы-бо-роч-на€ дис-пер-си€ со-ста-ви-ла: 0.0766235435949392;
+Overfull \hbox (51.44043pt too wide) in paragraph at lines 224--226
+[]\T2A/cmr/m/n/10 ƒл€ вы-бор-ки дли-ны 100000 вы-бо-роч-на€ дис-пер-си€ со-ста-
+ви-ла: 0.0766235435949392;
  []
 
-<./Task3/Task_3__density1_100.png, id=67, 433.62pt x 289.08pt>
+<./Task3/Task_3__density1_100.png, id=70, 433.62pt x 289.08pt>
 File: ./Task3/Task_3__density1_100.png Graphic file (type png)
 <use ./Task3/Task_3__density1_100.png>
-Package pdftex.def Info: ./Task3/Task_3__density1_100.png  used on input line 236.
+Package pdftex.def Info: ./Task3/Task_3__density1_100.png  used on input line 2
+39.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task3/Task_3__density2_100.png, id=68, 433.62pt x 289.08pt>
+<./Task3/Task_3__density2_100.png, id=71, 433.62pt x 289.08pt>
 File: ./Task3/Task_3__density2_100.png Graphic file (type png)
 <use ./Task3/Task_3__density2_100.png>
-Package pdftex.def Info: ./Task3/Task_3__density2_100.png  used on input line 237.
+Package pdftex.def Info: ./Task3/Task_3__density2_100.png  used on input line 2
+40.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task3/Task_3__density1_100000.png, id=69, 433.62pt x 289.08pt>
+<./Task3/Task_3__density1_100000.png, id=72, 433.62pt x 289.08pt>
 File: ./Task3/Task_3__density1_100000.png Graphic file (type png)
 <use ./Task3/Task_3__density1_100000.png>
-Package pdftex.def Info: ./Task3/Task_3__density1_100000.png  used on input line 238.
+Package pdftex.def Info: ./Task3/Task_3__density1_100000.png  used on input lin
+e 241.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-<./Task3/Task_3__density2_100000.png, id=70, 433.62pt x 289.08pt>
+<./Task3/Task_3__density2_100000.png, id=73, 433.62pt x 289.08pt>
 File: ./Task3/Task_3__density2_100000.png Graphic file (type png)
 <use ./Task3/Task_3__density2_100000.png>
-Package pdftex.def Info: ./Task3/Task_3__density2_100000.png  used on input line 239.
+Package pdftex.def Info: ./Task3/Task_3__density2_100000.png  used on input lin
+e 242.
 (pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
-[7 <./Task3/Task_3__density1_100.png> <./Task3/Task_3__density2_100.png> <./Task3/Task_3__density1_100000.png> <./Task3/Task_3__density2_100000.png>] (./Homework1.aux)
+[7 <./Task3/Task_3__density1_100.png> <./Task3/Task_3__density2_100.png> <./Tas
+k3/Task_3__density1_100000.png> <./Task3/Task_3__density2_100000.png>] [8]
+<./Task4/Task_4__all_100.png, id=85, 433.62pt x 289.08pt>
+File: ./Task4/Task_4__all_100.png Graphic file (type png)
+<use ./Task4/Task_4__all_100.png>
+Package pdftex.def Info: ./Task4/Task_4__all_100.png  used on input line 290.
+(pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
+<./Task4/Task_4__distrib_100.png, id=86, 433.62pt x 289.08pt>
+File: ./Task4/Task_4__distrib_100.png Graphic file (type png)
+<use ./Task4/Task_4__distrib_100.png>
+Package pdftex.def Info: ./Task4/Task_4__distrib_100.png  used on input line 29
+1.
+(pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
+<./Task4/Task_4__all_100000.png, id=87, 433.62pt x 289.08pt>
+File: ./Task4/Task_4__all_100000.png Graphic file (type png)
+<use ./Task4/Task_4__all_100000.png>
+Package pdftex.def Info: ./Task4/Task_4__all_100000.png  used on input line 292
+.
+(pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
+<./Task4/Task_4__distrib_100000.png, id=88, 433.62pt x 289.08pt>
+File: ./Task4/Task_4__distrib_100000.png Graphic file (type png)
+<use ./Task4/Task_4__distrib_100000.png>
+Package pdftex.def Info: ./Task4/Task_4__distrib_100000.png  used on input line
+ 293.
+(pdftex.def)             Requested size: 169.11111pt x 112.74074pt.
+<./Task4/Task_4__gist&density_100.png, id=89, 1084.05pt x 722.7pt>
+File: ./Task4/Task_4__gist&density_100.png Graphic file (type png)
+<use ./Task4/Task_4__gist&density_100.png>
+Package pdftex.def Info: ./Task4/Task_4__gist&density_100.png  used on input li
+ne 303.
+(pdftex.def)             Requested size: 422.7778pt x 281.85185pt.
+<./Task4/Task_4__gist&density_100000.png, id=90, 1084.05pt x 722.7pt>
+File: ./Task4/Task_4__gist&density_100000.png Graphic file (type png)
+<use ./Task4/Task_4__gist&density_100000.png>
+Package pdftex.def Info: ./Task4/Task_4__gist&density_100000.png  used on input
+ line 304.
+(pdftex.def)             Requested size: 422.7778pt x 281.85185pt.
+
+Overfull \hbox (77.7778pt too wide) in paragraph at lines 303--306
+ [] 
+ []
+
+
+Overfull \hbox (77.7778pt too wide) in paragraph at lines 303--306
+ [] 
+ []
+
+[9 <./Task4/Task_4__all_100.png> <./Task4/Task_4__distrib_100.png> <./Task4/Tas
+k_4__all_100000.png> <./Task4/Task_4__distrib_100000.png>]
+Overfull \vbox (52.2037pt too high) has occurred while \output is active []
+
+
+[10 <./Task4/Task_4__gist&density_100.png> <./Task4/Task_4__gist&density_100000
+.png>]
+Overfull \hbox (4.22728pt too wide) in paragraph at lines 310--311
+[]\T2A/cmr/m/n/10 ¬ычислим вы-бо-роч-ные сред-нее, ме-ди-а-ну, дим-пер-сию, ко-
+эф-фи-ци-ент асим-
+ []
+
+
+Overfull \hbox (16.24529pt too wide) in paragraph at lines 325--326
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 0.1654934183
+883899 
+ []
+
+
+Overfull \hbox (35.68524pt too wide) in paragraph at lines 326--327
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): -0.002690835
+4182544948 
+ []
+
+
+Overfull \hbox (21.24406pt too wide) in paragraph at lines 332--333
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 0.0674523785
+6342444 
+ []
+
+
+Overfull \hbox (27.35394pt too wide) in paragraph at lines 333--334
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 0.0570215147
+61033974 
+ []
+
+
+Overfull \hbox (16.24529pt too wide) in paragraph at lines 339--340
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 1.1060584102
+999171 
+ []
+
+
+Overfull \hbox (17.35638pt too wide) in paragraph at lines 340--341
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 1.0443862099
+776926 
+ []
+
+
+Overfull \hbox (21.24406pt too wide) in paragraph at lines 346--347
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 0.1951368913
+1670858 
+ []
+
+
+Overfull \hbox (22.35516pt too wide) in paragraph at lines 347--348
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 0.0355043672
+9861416 
+ []
+
+
+Overfull \hbox (19.5778pt too wide) in paragraph at lines 353--354
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): -0.613562793
+0553267 
+ []
+
+
+Overfull \hbox (17.35638pt too wide) in paragraph at lines 354--355
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 0.6119197109
+455063 
+ []
+
+
+Overfull \hbox (9.52168pt too wide) in paragraph at lines 362--363
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 9: -0.0023363939452022
+016 
+ []
+
+[11]
+Overfull \hbox (34.57414pt too wide) in paragraph at lines 363--364
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): -0.000684335
+1339917403 
+ []
+
+
+Overfull \hbox (35.68524pt too wide) in paragraph at lines 364--365
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): -0.000559555
+0966315507 
+ []
+
+
+Overfull \hbox (9.52168pt too wide) in paragraph at lines 369--370
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 9: -0.0025890223220645
+936 
+ []
+
+
+Overfull \hbox (26.24284pt too wide) in paragraph at lines 370--371
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 0.0046075190
+65085341 
+ []
+
+
+Overfull \hbox (35.68524pt too wide) in paragraph at lines 371--372
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): -0.001934984
+4763608373 
+ []
+
+
+Overfull \hbox (16.24529pt too wide) in paragraph at lines 377--378
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 1.0011963348
+072879 
+ []
+
+
+Overfull \hbox (17.35638pt too wide) in paragraph at lines 378--379
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 0.9979599854
+898414 
+ []
+
+
+Overfull \hbox (29.57536pt too wide) in paragraph at lines 384--385
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): -0.006933815
+628778138 
+ []
+
+
+Overfull \hbox (30.68646pt too wide) in paragraph at lines 385--386
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): -0.005617642
+448843749 
+ []
+
+
+Overfull \hbox (16.24529pt too wide) in paragraph at lines 391--392
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 0.0014470163
+841445 
+ []
+
+
+Overfull \hbox (12.3576pt too wide) in paragraph at lines 392--393
+[]\T2A/cmr/m/n/10 —моделированной спо-со-бом из за-да-чи 10($[]$): 0.0011457456
+22073 
+ []
+
+[12] [13] (Homework1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3547 strings out of 481536
- 48130 string characters out of 5928782
- 298879 words of memory out of 5000000
- 19182 multiletter control sequences out of 15000+600000
- 539597 words of font info for 35 fonts, out of 8000000 for 9000
- 735 hyphenation exceptions out of 8191
- 30i,13n,27p,823b,256s stack positions out of 5000i,500n,10000p,200000b,80000s
- </Users/unk/Library/texlive/2020basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </Users/unk/Library/texlive/2020basic/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1000.600pk> </Users/unk/Library/texlive/2020basic/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </Users/unk/Library/texlive/2020basic/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </Users/unk/Library/texlive/2020basic/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Homework1.pdf (7 pages, 406661 bytes).
+ 4346 strings out of 479798
+ 59422 string characters out of 2870180
+ 349348 words of memory out of 3000000
+ 21240 multiletter control sequences out of 15000+200000
+ 543592 words of font info for 46 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,12n,72p,825b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
+bx1000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600
+\larm1000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
+600\labx1200.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/
+dpi600\labx1440.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/User/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/U
+ser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.
+pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/symbols/msbm10.pfb>
+Output written on Homework1.pdf (13 pages, 658256 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 267 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
