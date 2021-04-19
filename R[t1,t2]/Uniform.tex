@@ -1,0 +1,211 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{cmap}
+\usepackage{float}
+\usepackage{amsmath,amssymb}
+\usepackage[russian]{babel}
+
+\begin{document}
+	
+\section{Задача 1}
+Построить аисптотический доверительный интервал параметров равномерного распределения $\mathbb{R}[\theta_1, \theta_2]$
+\subsection{Решение}
+
+Пусть дана выборка $\mathbb{X} = \left(X_1, ..., X_n\right) \sim \mathbb{R}[\theta_1; \theta_2]$
+\begin{itemize}
+	\item Считаю 1-ый и 2-ой начальные моменты равномерного распределения:
+\end{itemize}
+
+\[\mathbb{E}[X_i] = \frac{\theta_1 + \theta_2}{2}\]
+\[\mathbb{E}[X_i^2] = \mathbb{D}[X_i]+\left(\mathbb{E}X_i\right)^2=\frac{(\theta_2-\theta_2)^2}{12}+
+\frac{(\theta_2+\theta_1)^2}{4}=\frac{\theta_2^2-2\theta_1\theta_2+\theta_1^2}{12}+\]
+\[+\frac{3(\theta_2^2+2\theta_1\theta_2+\theta_1^2)}{12}=\]
+\[=\frac{4\theta_2^2+4\theta_1\theta_2+4\theta_1^2}{12}=\frac{\theta_2^2+\theta_1\theta_2+\theta_1^2}{3}\]
+\begin{equation*}
+	\begin{cases}
+		\overline{X} = \mathbb{E}[X]\\
+		S_{n,2} = \mathbb{E}[X^2]
+	\end{cases}
+\end{equation*}
+
+\begin{itemize}
+	\item Доказываю их асимптотическую нормальность и нахожу математическое ожидание и ковариационную матрицу:
+\end{itemize}
+
+Для доказательства воспользуюсь центральной предельной теоремой:
+\[\overline{X}\to \theta = \frac{\theta_1+\theta_2}{2}<\infty\]
+\[\mathbb{D}\left[\overline{X}\right] = \frac{\left(\theta_2-\theta_1\right)^2}{12}<\infty\]
+Тогда \[\sqrt{n}\frac{\overline{X}-\theta}{\sqrt{\mathbb{D}\left[\overline{X}\right]}}\to\mathbb{N}[0, 1]\]
+
+Теперь рассмотрим выборочный начальный момент второго порядка $S_{n,2}$:
+\[\mathbb{E}[S_{n,2}] = \mathbb{E}\left[\sum_{i = 1}^{n}\frac{1}{n}X_i^2\right]=\frac{1}{n}\sum_{i=1}^{n}\mathbb{E}[X_i^2]=\frac{1}{n}n\mathbb{E}[X_i^2]=\]
+\[=\mathbb{E}[X_i^2];\]
+
+То есть $S_{n,2}\to\mathbb{E}[X_i^2]$, тогда по теореме непрерывности 
+$\mathbb{D}(S_{n,2})\xrightarrow{\text{п.н.}}\mathbb{D}\left[\mathbb{E}(X_i^2)\right]$ (в том же смысле, что и
+$S_{n,2}\xrightarrow{\text{п.н.}}\mathbb{E}[X_i^2]$). 
+Получаем конечность двух первых начальных моментов, тогда применима ЦПТ и асимптотическая нормальность доказана.
+
+Теперь подсчитаем математическое ожидание и ковариационную матрицу вектора выборочных моментов:
+
+\[\begin{pmatrix} \overline{X} \\ S_{n,2} \end{pmatrix}\]
+
+Вектор матемтических ожиданий получается из несмещенности рассмотренных выше статистик:
+\[m = \begin{pmatrix}
+	\frac{\theta_2+\theta_1}{2}\\
+	\frac{\theta_2^2+\theta_1\theta_2+\theta_1^2}{3}
+\end{pmatrix}\]
+
+Для подсчета ковариационной матрицы воспользуемся тем фактом, что начальный момент n-го порядка Равномерного распределения на отрезке [$\theta_1$, $\theta_2$] считается так:
+\[\mathbb{E}[X_i^n] = \frac{\theta_2^{n+1} - \theta_1^{n+1}}{(n+1)(\theta_2-\theta_1)}\]
+и что элементы выборки независимы.
+
+Тогда 
+\[\textbf{$\mathbb{D}[\overline{X}]$} = \frac{1}{n}\mathbb{D}[X_i] = \frac{(\theta_2-\theta_1)^2}{12n}\]
+\[\textbf{$\mathbb{D}[S_{n,2}]$} = \mathbb{D}\left[\frac{1}{n}\sum_{i=1}^{n}X_i^2\right] = \frac{1}{n}\mathbb{D}[X_i^2] = \frac{1}{n}\left(\mathbb{E}[X_i^4]-\left(\mathbb{E}[X_i^2]\right)^2\right)=\]
+\[=\frac{1}{n}\left(\frac{\theta_2^5-\theta_1^5}{5(\theta_2-\theta_1)}-\left(\frac{\theta_2^{3} - \theta_1^{3}}{3(\theta_2-\theta_1)}\right)^2\right)\]
+\[\textbf{$cov(\overline{X}, S_{n,2})$} = \mathbb{E}\left[\stackrel{o}{\overline{X}}\stackrel{o}{S_{n,2}}\right]=\mathbb{E}\left[\frac{1}{n}\sum_{i=1}^{n}\stackrel{o}{X_i}\frac{1}{n}\sum_{j=1}^{n}\stackrel{o}{X_j^2}\right]=\]
+\[=\frac{1}{n^2}\sum_{i=1,j=1}^{n}\mathbb{E}\left[\stackrel{o}{X_i}\stackrel{o}{X_j^2}\right]=\frac{n}{n^2}\mathbb{E}\left[\stackrel{o}{X_i^3}\right]=\left|\mu = \mathbb{E}[X_i]\right|=\]
+\[=\frac{1}{n}\mathbb{E}\left[(X_i-\mu)^3\right]=\frac{1}{n}\left(\mathbb{E}[X_i^3]-3\mu\mathbb{E}[X_i^2]+3\mu^2\mathbb{E}[X_i]-\mu^3\right)=\]
+\[=\frac{1}{n}\left(\frac{\theta_2^{4} - \theta_1^{4}}{4(\theta_2-\theta_1)}-3\mu\frac{\theta_2^{3} - \theta_1^{3}}{3(\theta_2-\theta_1)}+3\mu^3-\mu^3\right)\]
+
+
+Введем обозначения для элементов матрицы:
+\begin{equation*}
+	\begin{cases}
+		\sigma^2_{\overline{X}} &= \textbf{$\mathbb{D}[\overline{X}]$}\\
+		c & = cov\left(\overline{X}, S_{n, 2}\right) \\
+		\sigma^2_{S_{n, 2}} &= \textbf{$\mathbb{D}[S_{n, 2}]$}\\
+	\end{cases}
+\end{equation*}
+
+Тогда используя полученные выше выражения справедливо, что 
+
+\[
+K(\theta_1, \theta_2) = 
+\begin{pmatrix}
+	\sigma^2_{\overline{X}} & c\\
+	c & \sigma^2_{S_{n, 2}}
+\end{pmatrix}\]
+
+Теперь получим представления для элементов этой матрицы через выбранные статистики.
+
+\[\textbf{$\mathbb{D}\left[\overline{X}\right]$} = \frac{1}{n}\left(\textbf{$\mathbb{D}[X]$}\right) = \frac{1}{n}(\mathbb{E}\left[X_i^2\right]-\left(\mathbb{E}[X_i]\right)^2) = \frac{1}{n}\left(S_{n, 2} - \left(\overline{X}\right)^2\right);\]
+
+Выразим $\mathbb{E}\left[X_i^4\right]$ через статистики:
+\[\mathbb{E}\left[X_i^4\right] = \frac{\theta_2^4+\theta_2^3\theta_1+\theta_2^2\theta_1^2+\theta_2\theta_1^3+\theta_1^4}{5};\]
+\[9(S_{n, 2})^2 = (\theta_2^2+\theta_2\theta_1+\theta_1^2)^2 = \theta_2^4+\theta_2^2\theta_1^2+\theta_1^4 + 2\theta_2^3\theta_1+2\theta_2^2\theta_1^2+2\theta_2\theta_1^3 = 5\mathbb{E}\left[X_i^4\right] + \]
+\[+\theta_1\theta_2(\theta_2^2+2\theta_2\theta_1+\theta_1^2) = 5\mathbb{E}\left[X_i^4\right] + 4\theta_2\theta_1\left(\overline{X}^2\right);\]
+\[\theta_2\theta_1 = 4\overline{X}^2-3S_{n, 2};\]
+\[5\mathbb{E}\left[X_i^4\right] = 9(S_{n, 2})^2 - 4(4\overline{X}^2-3S_{n, 2})\overline{X}^2;\]
+Тогда 
+\[\mathbb{D}[S_{n, 2}] = \frac{1}{n}\left(\mathbb{E}\left[X_i^4\right]- \left(\mathbb{E}[X_i^2]\right)^2\right) = \frac{1}{n}\left(\frac{9(S_{n, 2})^2 - 4(4\overline{X}^2-3S_{n, 2})\overline{X}^2}{5} - S_{n, 2}^2\right) = \]
+\[ = \frac{1}{5n}\left(4(S_{n, 2})^2 - 4(4\overline{X}^2-3S_{n, 2})\overline{X}^2\right);\]
+
+Наконец, для нахождения $cov\left(\overline{X}, S_{n, 2}\right)$ запишем выражение $\mathbb{E}\left[X_i^3\right]$ через статистики:
+\[\mathbb{E}\left[X_i^3\right] = \frac{\theta_2^4-\theta_1^4}{4(\theta_2-\theta_1)}=\frac{(\theta_2^2-\theta_1^2)(\theta_2^2+\theta_1^2)}{4(\theta_2-\theta_1)} = \frac{(\theta_2+\theta_1)(\theta_2^2+\theta_1^2)}{4} = \frac{\theta_2^2+\theta_1^2}{2}\frac{\theta_2+\theta_1}{2}=\]
+\[=\frac{\theta_2^2+\theta_1^2}{2}\overline{X};\]
+\[\theta_2^2+\theta_1^2 = 6S_{n,2}-4\overline{X}^2;\]
+\[\mathbb{E}\left[X_i^3\right] = \left(3S_{n, 2}-2\overline{X}^2\right)\overline{X};\]
+
+\[cov\left(\overline{X}, S_{n, 2}\right)=\frac{1}{n}\left(\frac{\theta_2^{4} - \theta_1^{4}}{4(\theta_2-\theta_1)}-3\mu\frac{\theta_2^{3} - \theta_1^{3}}{3(\theta_2-\theta_1)}+3\mu^3-\mu^3\right) = \left|\overline{X} = \mu\right| = \]
+\[ = \frac{1}{n}\left(3S_{n, 2}\overline{X} - 2\overline{X}^3-3\overline{X}S_{n,2}+3\overline{X}^3-\overline{X}^3\right) = 0\]
+
+Таким образом, получена ковариационная матрица, зависящая от статистик:
+
+\[K(T) = K\left(\overline{X}, S_{n, 2}\right) = \frac{1}{n}
+\begin{pmatrix}
+	S_{n, 2} - \left(\overline{X}\right)^2 & 0\\
+	0 & \frac{1}{5}\left(4(S_{n, 2})^2 - 4(4\overline{X}^2-3S_{n, 2})\overline{X}^2\right)
+\end{pmatrix}\]
+\begin{itemize}
+	\item На занятиях были посчиталны функции, которые выражают концы отрезка через моменты.
+\end{itemize}
+
+Полученные на семинаре нелинейные функции $h_i(x), i = \{0, 1\}$ имеют следующий вид:
+\begin{equation*}
+	\begin{cases}
+		h_1\left(\overline{X}, S_{n, 2}\right) = \overline{X}-\sqrt{3\left(S_{n, 2}-(\overline{X})^2\right)}\\
+		h_2\left(\overline{X}, S_{n, 2}\right) = \overline{X}+\sqrt{3\left(S_{n, 2}-(\overline{X})^2\right)}
+	\end{cases}
+\end{equation*}
+
+Далее будем предполагать, что 
+\[M = 
+\begin{pmatrix}
+	\mathbb{E}[X] \\
+	\mathbb{E}\left[X^2\right] 
+\end{pmatrix}\]
+
+\[T = 
+\begin{pmatrix}
+	\overline{X}\\
+	S_{n, 2}
+\end{pmatrix}\]
+В данном случае результат нелинейного преобразования асимптотически гауссовского вектора будет асимптотически гауссовским.
+
+Так как $\mathbb{L}_\theta\left(\sqrt{n}\left(T-M\right)\right) \to \mathbb{N}\left(0, K(\theta)\right)$, тогда, положив, что
+\[\phi(T) = 
+\begin{pmatrix}
+	h_1(T) \\
+	h_2(T)
+\end{pmatrix}\] получаем $\mathbb{L}_\theta\left(\sqrt{n}\left(\phi(T)-\phi(M)\right)\right) \to \mathbb{N}\left(0, v^2(\theta)\right)$, где 
+
+\[v^2(\theta) = b^T(\theta)K(\theta)b(\theta), b(\theta) = 
+\begin{pmatrix}
+	\frac{\partial{\phi(\theta)}}{\partial{\theta_1}}\\
+	\frac{\partial{\phi(\theta)}}{\partial{\theta_2}}
+\end{pmatrix}
+=
+\begin{pmatrix}
+	\frac{\partial{h_1(\theta)}}{\partial{\theta_1}} & \frac{\partial{h_2(\theta)}}{\partial{\theta_1}}\\
+	\frac{\partial{h_1(\theta)}}{\partial{\theta_2}} & \frac{\partial{h_2(\theta)}}{\partial{\theta_2}}
+\end{pmatrix}
+=
+\begin{pmatrix}
+	\frac{1}{2}+\frac{1}{2\sqrt{3}} & \frac{1}{2}-\frac{1}{2\sqrt{3}}\\
+	\\
+	\frac{1}{2}-\frac{1}{2\sqrt{3}} & \frac{1}{2}+\frac{1}{2\sqrt{3}}
+\end{pmatrix}\]
+
+Также заметим, что 
+\[\theta = 
+\begin{pmatrix}
+	\theta_1\\
+	\theta_2
+\end{pmatrix} = \phi(M)\]
+Отсюда и из установленного ранее тождества $c = cov(\overline{X}, S_{n, 2}) = 0$ получаем, что 
+\[b^T(\theta)K(\theta) = 
+\begin{pmatrix}
+	\frac{\sqrt{3}+1}{2\sqrt{3}}\sigma^2_{\overline{X}} & \frac{\sqrt{3}-1}{2\sqrt{3}}\sigma^2_{S_{n, 2}}\\
+	\\
+	\frac{\sqrt{3}-1}{2\sqrt{3}}\sigma^2_{\overline{X}} & \frac{\sqrt{3}+1}{2\sqrt{3}}\sigma^2_{S_{n, 2}}
+\end{pmatrix}\]
+
+\[v^2(\theta) = b^T(\theta)K(\theta)b(\theta), b(\theta) = 
+\begin{pmatrix}
+	\frac{(\sqrt{3}+1)^2}{4*3}\sigma^2_{\overline{X}}+\frac{(\sqrt{3}-1)^2}{4*3}\sigma^2_{S_{n,2}} & \frac{2}{12}\sigma^2_{\overline{X}}+\frac{2}{12}\sigma^2_{S_{n,2}}\\
+	\frac{2}{12}\sigma^2_{\overline{X}}+\frac{2}{12}\sigma^2_{S_{n,2}} & \frac{(\sqrt{3}+1)^2}{4*3}\sigma^2_{\overline{X}}+\frac{(\sqrt{3}-1)^2}{4*3}\sigma^2_{S_{n,2}}
+\end{pmatrix}\]
+
+Тогда $\mathbb{L}_\theta\left(\sqrt{n}\frac{\left(\phi(T)-\phi(M)\right)}{v(T)}\right) \to \mathbb{N}(0, I)$
+
+Используя равенство $\theta = \phi(M)$, получаем ответ:
+\[\theta = 
+\begin{pmatrix}
+	\theta_1\\
+	\theta_2
+\end{pmatrix}
+\in\left(h(T)-\frac{v(T)c_\gamma}{\sqrt{n}}; h(T) + \frac{v(T)c_\gamma}{\sqrt{n}}\right), \]
+\[\text{где }c_\gamma = 
+\begin{pmatrix}
+	(c_\gamma)_1\\
+	(c_\gamma)_2
+\end{pmatrix} \\- \text{многомерный квантиль} \gamma \text{ стандартного нормального распределения}\]
+
+\end{document}
